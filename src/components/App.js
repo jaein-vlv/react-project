@@ -1,5 +1,6 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
+import Contact from './Contact';
 
 class App extends React.Component {
   constructor(props) {
@@ -9,18 +10,7 @@ class App extends React.Component {
     };
   }
   render() {
-    return (
-      <div>
-        <button
-          onClick={() => {
-            this.setState({ name: 'jaein' });
-          }}
-        >
-          click me
-        </button>
-        <h1>Hellfo{this.state.name}</h1>
-      </div>
-    );
+    return <Contact></Contact>;
   }
 }
 
