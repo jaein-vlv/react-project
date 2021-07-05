@@ -1,8 +1,8 @@
 # react-project
 
-react study project
+- react study project
 
-- npm 설치
+* npm 설치
 
 npm i --save react react-dom
 npm i --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
